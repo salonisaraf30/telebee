@@ -1,0 +1,25 @@
+*{
+    background-color: #212A3E;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: #212A3E;
+    
+    .tagline{
+        color: #F1F6F9;
+        font-size: 30px;
+    
+    }
+    .tag-item{
+        margin-top: 50px;
+    }
+    & > * {
+      margin-bottom: 20px;
+      
+    }
+  }
+
